@@ -402,6 +402,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Legacy\hooks_skype.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\Legacy\hooks_wininet.cpp"
 				>
 			</File>
