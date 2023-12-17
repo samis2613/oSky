@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2006  Ole André Vadla Ravnås <oleavr@gmail.com>
+ * Copyright (C) 2006  Ole AndrÃ© Vadla RavnÃ¥s <oleavr@gmail.com>
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -35,3 +35,8 @@ void hook_wininet();
 void hook_httpapi();
 void hook_activesync();
 void hook_msn();
+void hook_skype14();
+void hook_skype25();
+void hook_skype38();
+void hook_skype42();
+void hook_skype55();
