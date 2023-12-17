@@ -1,5 +1,5 @@
 //
-// Copyright (C) 2009  Ole André Vadla Ravnås <oleavr@gmail.com>
+// Copyright (C) 2009  Ole AndrÃ© Vadla RavnÃ¥s <oleavr@gmail.com>
 //
 // This program is free software; you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -143,6 +143,11 @@ namespace oSpyAgent
         hook_wininet();
         hook_activesync();
         hook_msn();
+        hook_skype14();
+        hook_skype25();
+        hook_skype38();
+        hook_skype42();
+        hook_skype55();
     }
 
     void Controller::DisableLegacyHooks()
